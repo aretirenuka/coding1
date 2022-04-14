@@ -1,6 +1,6 @@
-for i in range(10):
-    if(i==5):
+n=int(input())
+for i in range(1,n):
+    if i%2==0 and i%3==0:
         continue
-    else:
-        print(i)
-        i=i+1
+    print(i,end=' ')
+    
